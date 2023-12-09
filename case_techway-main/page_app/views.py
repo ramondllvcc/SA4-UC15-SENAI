@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from page_app import
 
 # Create your views here.
 def index (request):
@@ -6,3 +7,6 @@ def index (request):
 
 def contato (request):
     return render(request, "page_app/partial/contato.html")
+
+def services (request):
+    return render(request, "page_app/partial/services.html")
