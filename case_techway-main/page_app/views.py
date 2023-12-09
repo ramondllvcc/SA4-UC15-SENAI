@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from page_app import
 
 # Create your views here.
 def index (request):
